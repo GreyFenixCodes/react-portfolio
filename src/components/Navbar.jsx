@@ -8,8 +8,7 @@ const Navbar = () => {
             <div className="collapse navbar-collapse" id="navmenu">
                 <ul className="navbar-nav ms-auto">
                 <a href="https://github.com/GreyFenixCodes" className="navbar-brand" target="_blank">GreyFenix.Codes</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu"
-            >
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
             <span className="navbar-toggler-icon"></span>
             </button>
                     <li className="nav-item">

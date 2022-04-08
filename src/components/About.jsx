@@ -1,11 +1,12 @@
 import React from 'react'
+import Full from '../img/full.jpg'
 
 const About = () => {
   return (
     <div>
          <section id="about_me" className="p-5 bg-dark text-light">
         <div className="container d-lg-flex text-md-start justify-content-between">
-            <img id='grey' className="image-fluid img-thumbnail d-none d-lg-block px-3" src="img/full.jpg" alt="" srcset="" />
+            <img src={Full} id='grey' className="image-fluid img-thumbnail d-none d-lg-block px-3"  alt="Full Image of Josh" />
             <section className="px-3 flex-lg-grow-1">
                 <h1 className="text-center">About the Dev</h1>
                 <div className="lead">

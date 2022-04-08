@@ -1,4 +1,5 @@
 import React from 'react'
+import grey from '../img/Grey.jpg'
 
 const Hero = () => {
   return (
@@ -11,10 +12,10 @@ const Hero = () => {
                     <p className="lead my-2">Full stack programmer focusing on front-end development</p>
                     <button className="btn btn-secondary btn-lg my-4" data-bs-toggle="modal" data-bs-target="#about">About This Site</button>
                 </div>
-                <img id='grey' className="image-fluid img-thumbnail d-none d-md-block rounded-circle" src="img/Grey.jpg" alt="" srcset=""/>
+                <img id='grey' className="image-fluid img-thumbnail d-none d-md-block rounded-circle" src={grey} alt="" srcset=""/>
             </div>
         </div>
-    </section>
+    </section>    
     </div>
   )
 }

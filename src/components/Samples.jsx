@@ -1,4 +1,8 @@
 import React from 'react'
+import spaceInvaders from '../img/space-invaders.png'
+import comingSoon from '../img/coming-soon.jpg'
+import portfolio from '../img/portfolio.png'
+import countdown from '../img/countdown.png'
 
 const Samples = () => {
   return (
@@ -8,7 +12,7 @@ const Samples = () => {
         <div className="container row row-cols-md-2 row-cols-lg-4 text-center mx-auto">
             <div className="col-sm p-2">
                 <div className="card">
-                    <img src="img/countdown.png" className="card-img-top project-img" alt="Countdown App Image"></img>
+                    <img src={countdown} className="card-img-top project-img" alt="Countdown App Image"></img>
                     <div className="card-body">
                       <h5 className="card-title">Javascript Countdown</h5>
                       <p className="card-text">A quick 'countdown' I built while learning JavaScript function syntax and working with the DOM</p>
@@ -18,7 +22,7 @@ const Samples = () => {
             </div>
             <div className="col-sm p-2">
                 <div className="card">
-                    <img src="img/space-invaders.png" className="card-img-top project-img" alt="Space Invaders Clone Image"></img>
+                    <img src={spaceInvaders} className="card-img-top project-img" alt="Space Invaders Clone Image"/>
                     <div className="card-body">
                       <h5 className="card-title">Python Space Invaders Clone</h5>
                       <p className="card-text">While learning Python, I began to build a Space Invaders clone using PyGame.</p>
@@ -28,7 +32,7 @@ const Samples = () => {
             </div>
             <div className="col-sm p-2">
                 <div className="card">
-                    <img src="img/portfolio.png" className="card-img-top project-img" alt="Portfolio Image"></img>
+                    <img src={portfolio} className="card-img-top project-img" alt="Portfolio Image"></img>
                     <div className="card-body">
                       <h5 className="card-title">This Website!</h5>
                       <p className="card-text">This site was built while learning the Bootstrap library (I'm sure that's obvious just from the color scheme!). <br/> Lots of divs and lots of classNameNames. <br/> - oh, just classNamees, this isn't React &#128540 -</p>
@@ -38,7 +42,7 @@ const Samples = () => {
             </div>
             <div className="col-sm p-2">
                 <div className="card">
-                    <img src="img/coming-soon.jpg" className="card-img-top project-img" alt="..."></img>
+                    <img src={comingSoon} className="card-img-top project-img" alt="..."></img>
                     <div className="card-body">
                       <h5 className="card-title">Coming Soon...</h5>
                       <p className="card-text">I am currently working on cloning this website using React.JS. No code repository yet!</p>
