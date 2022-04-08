@@ -49,7 +49,7 @@ const Languages = () => {
         </div>
 
         <div className="container">
-          <div className="row row-cols-7 justify-content-center">
+          <div className="row row-cols-8 justify-content-center">
             <ul className="list-group list-group-horizontal text-center align-items-center text-nowrap row">
               <li className="list-group-item list-group-item-action list-group-item-primary m-1 rounded-pill col col-sm h3">
                 HTML-5
@@ -71,6 +71,9 @@ const Languages = () => {
               </li>
               <li className="list-group-item list-group-item-action list-group-item-primary m-1 rounded-pill col col-sm h3">
                 JavaScript-ES6
+              </li>
+              <li className="list-group-item list-group-item-action list-group-item-primary m-1 rounded-pill col col-sm h3">
+                React.JS
               </li>
             </ul>
           </div>

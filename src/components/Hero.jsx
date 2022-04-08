@@ -6,7 +6,7 @@ const Hero = () => {
     <div>
       <section className="bg-dark text-light p-5 text-center text-sm-start">
         <div className="container">
-          <div className="d-sm-flex align-items-center justify-content-between">
+          <div className="d-sm-flex align-items-center justify-content-around">
             <div className="px-3">
               <h1>
                 Josh Kladis <span className="text-warning">aka</span> Grey Fenix
