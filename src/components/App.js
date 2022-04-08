@@ -1,11 +1,11 @@
-import './App.css';
-import Navbar from './Navbar';
-import Hero from './Hero'
-import Languages from './Languages';
-import About from './About';
-import Samples from './Samples';
-import Contact from './Contact';
-import Footer from './Footer';
+import "./App.css";
+import Navbar from "./Navbar";
+import Hero from "./Hero";
+import Languages from "./Languages";
+import About from "./About";
+import Samples from "./Samples";
+import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
   return (
